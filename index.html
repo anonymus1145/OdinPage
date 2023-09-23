@@ -1,74 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OdinPage</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="images/shiba-logo.png">
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <title>OdinPage - Official Page</title>
 </head>
 
 <body>
-    <div class="container-sm">
-        <div class="header">
-            <div class="logo">Header Logo</div>
-            <div class="right-links">
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Header link one</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Header link two</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Header link three</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="header">
-            <div class="text-body">
-                <dd class="col-sm-8">This website is awesome</dd>
-                <p class="text-secondary">This website has some subtext that goes here under the main title. It's
-                    smaller font and the color is lower contrast</p>
-                <button type="button" class="btn btn-primary">Sign up</button>
-            </div>
-            <figure class="figure">
-                <img src="images/4123763.png" alt="Anonymus1145">
-            </figure>
-        </div>
-        <div class="text-black">
-            <p class="ext">Some random information.</p>
-        </div>
-        <div class="small-img">
-            <figure class="figure">
-                <img src="images/4123763.png" class="figure-img img-fluid rounded" alt="Anonymous"
-                    style="width:300px;height:300px">
-                <figcaption class="figure-caption col-sm-5 text-center">this is some subtext under an illustration or
-                    image</figcaption>
-            </figure>
-            <figure class="figure">
-                <img src="images/4123763.png" class="figure-img img-fluid rounded" alt="Anonymous"
-                    style="width:300px;height:300px">
-                <figcaption class="figure-caption col-sm-5 text-center">this is some subtext under an illustration or
-                    image</figcaption>
-            </figure>
-            <figure class="figure">
-                <img src="images/4123763.png" class="figure-img img-fluid rounded" alt="Anonymous"
-                    style="width:300px;height:300px">
-                <figcaption class="figure-caption col-sm-5 text-center">this is some subtext under an illustration or
-                    image</figcaption>
-            </figure>
-            <figure class="figure">
-                <img src="images/4123763.png" class="figure-img img-fluid rounded" alt="Anonymous"
-                    style="width:300px;height:300px">
-                <figcaption class="figure-caption col-sm-5 text-center">this is some subtext under an illustration or
-                    image</figcaption>
-            </figure>
-        </div>
+  <div class="container">
+
+    <nav class="navbar">
+      <div class="header-logo">
+        Header Logo
+      </div>
+      <div class="header-link">
+        <a href="#">Header link one</a>
+        <a href="#">Header link two</a>
+        <a href="#">Header link three</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-1 hero-cta">
+        <h1>This website is awesome</h1>
+        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+          contrast
+        </p>
+        <button type="button">Sign Up</button>
+      </div>
+      <div class="hero-1 hero-image">
+        <img src="images/4123763.png" alt="Anonymous1145">
+      </div>
     </div>
+
+    <div class="grid">
+      <h2>Some random information.</h2>
+      <div class="content-info">
+        <div class="g-col-4">
+          <img src="images/4123763.png" >
+          <dd class="col-sm-8">This is some subtext under an illustration or image</dd>
+          </div>
+        <div class="g-col-4">
+          <img src="images/4123763.png">
+          <dd class="col-sm-8">This is some subtext under an illustration or image</dd>
+        </div>
+        <div class="g-col-4">
+          <img src="images/4123763.png">
+          <dd class="col-sm-8">This is some subtext under an illustration or image</dd>
+        </div>
+        <div class="g-col-4">
+          <img src="images/4123763.png">
+          <dd class="col-sm-8">This is some subtext under an illustration or image</dd>
+        </div>
+      </div>
+    </div>
+    <div class="quote">
+      <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+      </p>
+      <b> -Thor, God of Thunder </b>
+    </div>
+    <div class="sign-up">
+      <div class="signs-text">
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up for our product by clicking that button right now over there!</p>
+      </div>
+      <div class="signs-button">
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright © The Odin Project 2023</p>
+    </div>
+  </div>
 </body>
 
 </html>
